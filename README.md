@@ -1,90 +1,65 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="秦嘉言 Jiayan Qin · Full-stack Agent Developer · From context to action" />
-</p>
+我是 **秦嘉言 Jiayan Qin**，全栈 Agent 开发者，目前在 **特赞 Tezign** 实习。正在做 [EchoAgent](projects/echoagent.md)，关注 Agent 工作流、RAG 和企业系统集成。可以看看[我的项目](PROJECTS.md)、读读[技术笔记](notes/README.md)，或[通过邮箱联系我](mailto:qjyvictory@163.com)。[English](README.en.md)。
 
-<p align="center">
-  <a href="README.en.md">English</a> · <a href="#selected-work">精选项目</a> · <a href="#experience">实践经历</a> · <a href="mailto:qjyvictory@163.com">联系我 ↗</a>
-</p>
+<table><tr><td valign="top" width="33%">
 
-# 你好，我是秦嘉言。
+### Projects · 项目
 
-**全栈 Agent 开发者，把模型能力接进真实业务。**
+[EchoAgent](projects/echoagent.md) — 人物记忆与可控执行
 
-我关注 Agent 从理解上下文到可靠执行的完整链路：记忆与检索、工作流编排、工具调用，以及用户真正能用起来的产品界面。目前在 **特赞 Tezign** 从事全栈 Agent 开发实习。
+[Volvo 研究 Agent](projects/volvo.md) — 多阶段研究交付
 
-- **正在做**：EchoAgent，一套围绕人物记忆、表达风格和可控工具执行构建的个人 Agent 工作台。
-- **实践方向**：多阶段研究 Agent、企业知识库 RAG、多模态订单交互、SSO / IAM 与私有化交付。
-- **教育背景**：北京交通大学 · 计算机科学与技术本科（2022–2026）；澳大利亚国立大学 · 计算机科学硕士已获录取（2027 年 7 月入学）。
-- **交流与机会**：欢迎交流 Agent / RAG / 全栈工程，也欢迎长期实习机会，可实习至 2027 年 7 月。
+[金龙鱼智能订单](projects/order-agent.md) — 多模态改单工具
 
-> 我希望做的 Agent：知道依据在哪里，知道什么时候该停，也能把任务交付完。
+[金龙鱼 GEA](projects/gea.md) — 工作台与身份集成
 
-<a id="selected-work"></a>
+[Disney DAM](projects/disney.md) — 企业数字资产管理
 
-## 01 / Selected work
+[礼来内容引擎](projects/lilly.md) — 内容工作台归档
 
-### EchoAgent · 有记忆、有边界的个人 Agent
+[融矩阵数字藏品](projects/fusion-matrix.md) — Java 后端与项目文档
 
-<a href="projects/echoagent.md"><img src="assets/echoagent.svg" width="100%" alt="EchoAgent：授权资料经过记忆与风格检索，进入 Agent 工作流，再由用户确认工具执行。当前为开发中原型。" /></a>
+[视觉目标跟踪](projects/visual-tracking.md) — 检测、跟踪与云台控制
 
-从授权资料建立人物记忆与表达风格，让回答有来源，让工具执行经过确认。重点探索 **记忆与风格分离、来源隔离、可撤回的数据和可追踪的执行过程**。
+[全部项目](PROJECTS.md)
 
-`Python` `FastAPI` `LangGraph` `React` `TypeScript` `PostgreSQL` `pgvector` `Docker`
+</td><td valign="top" width="34%">
 
-- **产品**：统一的聊天、人设、记忆、资料导入、反馈和费用工作台。
-- **工程**：混合检索、时序事实、会话持久化、工具审批与执行追踪。
-- **当前阶段**：开发中原型；已有合成数据演示与工程验证，完整 Live 验收及正式版本发布尚未完成。语音和数字人形象属于后续方向。
+### Case studies · 实践
 
-**[阅读项目介绍 ↗](projects/echoagent.md)** · [源码仓库（私有，需授权）](https://github.com/QinJiayan-maker/virtual-human)
+[七阶段研究流程](projects/volvo.md)
 
-### 视觉目标跟踪 · 从识别到云台控制
+[语音 / 文字 / 拍照改单](projects/order-agent.md)
 
-将 YOLO 检测、NanoTrack 跟踪与卡尔曼滤波接入实时视频流程，通过串口联动 STM32 舵机，并提供桌面与 Web 两种交互方式。
+[SSO 与组织同步](projects/gea.md)
 
-`Python` `OpenCV` `YOLO` `NanoTrack` `STM32`
+[多模态资产检索](projects/disney.md)
 
-**[阅读项目介绍 ↗](projects/visual-tracking.md)** · 本地项目，源码尚未在此主页发布。
+[人物记忆与来源治理](projects/echoagent.md)
 
-<a id="experience"></a>
+[数字藏品后端](projects/fusion-matrix.md)
 
-## 02 / Applied engineering
+[更多项目实践](PROJECTS.md)
 
-以下是我的项目实践与实习经历摘要；企业项目仅展示职责与技术思路。
+</td><td valign="top" width="33%">
 
-**特赞 Tezign · 全栈 Agent 开发实习生**  
-2026.05 – 至今
+### Notes · 技术笔记
 
-- **研究交付平台**：参与七阶段多 Agent 研究流程，以状态机、阶段确认和可回溯引用组织研究；结合 PostgreSQL / pgvector 建设团队知识库，区分历史结论与独立证据。
-- **企业数字资产管理**：参与企业 SSO 与网关鉴权、多模态素材检索及私有化部署，涉及 Milvus、ETCD 和对象存储签名访问。
+[Agent 在哪里等待确认](notes/agent-approval.md)
 
-**智能订单 Agent · 项目实践**  
-2026.02 – 2026.04
+[区分事实与表达风格](notes/memory-and-style.md)
 
-- 基于 Next.js H5 支持语音、文字和拍照改单，以 SKU / 单位校验、工具步数限制和待确认状态约束执行。
-- 衔接订单草稿、会话与调用日志、原生下单页；完成 IAM 登录与组织同步相关对接。
+[检索结果如何带上依据](notes/retrieval-evidence.md)
 
-**北京市计算中心 · Java 工程师实习**  
-2024.07 – 2024.09
+[为什么登录和组织同步分开](notes/identity-and-sync.md)
 
-- 基于 Spring Boot / MyBatis Plus 参与数字藏品平台后端，完成藏品分页筛选及用户基础接口。
+[改单工具如何处理单位](notes/order-units.md)
 
-## 03 / Toolkit
+[私有源码的公开展示](notes/private-projects.md)
 
-**Agent & retrieval**  
-工具调用 · 状态机编排 · Prompt 设计 · RAG · pgvector · Milvus
+[全部技术笔记](notes/README.md)
 
-**Full-stack delivery**  
-TypeScript · React · Next.js · Python / FastAPI · Java / Spring Boot
+</td></tr></table>
 
-**Data & integration**  
-PostgreSQL · MySQL · Redis · SSO / IAM · Docker · OSS
+北京交通大学 · 计算机科学与技术本科（2022–2026）。澳大利亚国立大学 · 计算机科学硕士已获录取，2027 年 7 月入学。可长期实习至 2027 年 7 月。
 
-## 04 / Let's build something useful
-
-我对有真实使用场景的 Agent 产品、可靠的检索与记忆系统，以及从前端到服务端的完整交付感兴趣。
-
-**[qjyvictory@163.com](mailto:qjyvictory@163.com)** · [GitHub](https://github.com/QinJiayan-maker)
-
----
-
-<sub>From context to action. Built with evidence, shipped with care.</sub>
+公开页面展示项目介绍，源码与发行包保存在私有仓库。[主页维护说明](MAINTAINING.md)。

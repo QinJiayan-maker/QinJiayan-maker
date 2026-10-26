@@ -1,69 +1,65 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Jiayan Qin · Full-stack Agent Developer · From context to action" />
-</p>
+I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tezign**. Currently building [EchoAgent](projects/echoagent.md) and working across agent workflows, RAG, and enterprise integrations. Browse [my projects](PROJECTS.md), read [engineering notes](notes/README.md), or [get in touch](mailto:qjyvictory@163.com). [中文](README.md).
 
-<p align="center"><a href="README.md">中文</a> · <a href="projects/echoagent.md">Featured project</a> · <a href="mailto:qjyvictory@163.com">Get in touch ↗</a></p>
+<table><tr><td valign="top" width="33%">
 
-# Hi, I'm Jiayan Qin.
+### Projects
 
-**A full-stack developer building agents for real workflows.**
+[EchoAgent](projects/echoagent.md) — memory and controlled actions
 
-I work across memory and retrieval, agent orchestration, tool execution, and the interfaces that make these systems usable. Currently a **Full-stack Agent Development Intern at Tezign**.
+[Research Agent](projects/volvo.md) — multi-stage research
 
-- **Building**: EchoAgent, a personal agent workspace exploring persona memory, expression style, and controlled tool execution.
-- **Experience**: multi-stage research agents, enterprise RAG, multimodal order editing, SSO / IAM, and private deployment.
-- **Education**: Undergraduate studies in Computer Science and Technology, Beijing Jiaotong University (2022–2026). Admitted to a master's program in computer science at the Australian National University; entry July 2027.
-- **Open to**: Agent / RAG / full-stack collaboration and internship opportunities through July 2027.
+[Order Agent](projects/order-agent.md) — multimodal order editing
 
-> Build agents that can explain their sources, pause for approval, and finish the workflow.
+[GEA & Identity](projects/gea.md) — workspace and identity
 
-## 01 / Selected work
+[Disney DAM](projects/disney.md) — enterprise asset management
 
-### EchoAgent · Personal memory, controlled actions
+[Lilly Content Engine](projects/lilly.md) — content workspace archive
 
-<a href="projects/echoagent.md"><img src="assets/echoagent.svg" width="100%" alt="EchoAgent workflow: authorized sources, memory and style retrieval, agent workflow, approval and action. Work in progress." /></a>
+[Fusion Matrix](projects/fusion-matrix.md) — Java backend and docs
 
-A development prototype for source-grounded persona conversations and approval-based tools. Its engineering focus is separating factual memory from expression style, preserving provenance, and making imported data retractable.
+[Visual Tracking](projects/visual-tracking.md) — perception to pan-tilt control
 
-`Python` `FastAPI` `LangGraph` `React` `TypeScript` `PostgreSQL` `pgvector` `Docker`
+[All projects](PROJECTS.md)
 
-The workspace brings together chat, personas, memory, imports, feedback, and costs. Synthetic-data demos and engineering checks are available; full live acceptance and a stable release are pending. Voice and avatar integration remain future directions.
+</td><td valign="top" width="34%">
 
-**[Project overview ↗](projects/echoagent.md)** · [Private source repository — access required](https://github.com/QinJiayan-maker/virtual-human)
+### Case studies
 
-### Visual tracking · Connecting perception to motion
+[Research orchestration](projects/volvo.md)
 
-A local project combining YOLO detection, NanoTrack tracking, Kalman filtering, and serial communication with an STM32 pan-tilt controller. Includes desktop and web interaction modes.
+[Multimodal order editing](projects/order-agent.md)
 
-`Python` `OpenCV` `YOLO` `NanoTrack` `STM32`
+[SSO and organization sync](projects/gea.md)
 
-**[Project overview ↗](projects/visual-tracking.md)** · Source has not been published here.
+[Multimodal asset search](projects/disney.md)
 
-## 02 / Applied engineering
+[Memory and provenance](projects/echoagent.md)
 
-**Tezign · Full-stack Agent Development Intern** · May 2026–present  
-Contributed to a seven-stage research-agent workflow, team knowledge retrieval, source-aware reporting, enterprise authentication, multimodal asset search, and private deployment.
+[Collectibles backend](projects/fusion-matrix.md)
 
-**Intelligent Order Agent · Project experience** · February–April 2026  
-Built a Next.js H5 workflow for voice, text, and photo-assisted order editing, with SKU validation, bounded tool calls, order drafts, native checkout integration, and IAM integration.
+[More case studies](PROJECTS.md)
 
-**Beijing Computing Center · Java Engineering Intern** · July–September 2024  
-Worked on Spring Boot / MyBatis Plus backend APIs for collectible filtering and user account features.
+</td><td valign="top" width="33%">
 
-Enterprise work is described at the responsibility and architecture level; this profile does not distribute enterprise source code.
+### Engineering notes
 
-## 03 / Toolkit
+[Where agents pause for approval](notes/agent-approval.md)
 
-- **Agents & retrieval**: tool calling, state-machine orchestration, prompts, RAG, pgvector, Milvus.
-- **Full-stack**: TypeScript, React, Next.js, Python / FastAPI, Java / Spring Boot.
-- **Data & integration**: PostgreSQL, MySQL, Redis, SSO / IAM, Docker, object storage.
+[Separating facts from style](notes/memory-and-style.md)
 
-## 04 / Let's build something useful
+[Retrieval with provenance](notes/retrieval-evidence.md)
 
-Interested in practical agent products, reliable retrieval and memory, and end-to-end software delivery.
+[Login versus organization sync](notes/identity-and-sync.md)
 
-**[qjyvictory@163.com](mailto:qjyvictory@163.com)** · [GitHub](https://github.com/QinJiayan-maker)
+[Units in order-editing tools](notes/order-units.md)
 
----
+[Presenting private projects](notes/private-projects.md)
 
-<sub>From context to action. Built with evidence, shipped with care.</sub>
+[All notes](notes/README.md)
+
+</td></tr></table>
+
+Beijing Jiaotong University · CS undergraduate, 2022–2026. Admitted to a computer science master's program at ANU; entry July 2027. Open to internships through July 2027.
+
+Public pages contain project overviews; source archives and packaged builds are private. [About this profile](MAINTAINING.md).

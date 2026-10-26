@@ -1,39 +1,49 @@
 # 主页维护说明
 
-## 主页如何展示
+## 布局与参考
 
-GitHub 个人资料页会展示公开同名仓库 `QinJiayan-maker/QinJiayan-maker` 根目录中的 `README.md`。本仓库是个人资料主页，不依赖 GitHub Pages 或另一个网站服务。
+本版按用户指定的 [Simon Willison 主页](https://github.com/simonw) 重做：简短介绍、三列顶端对齐内容、正文链接与简洁页尾。参考结构与比例，介绍、项目及笔记均换成自己的内容。
 
-- `README.md`：中文首页。
-- `README.en.md`：独立英文版。
-- `assets/hero.svg`：原创品牌横幅。
-- `assets/echoagent.svg`：原创项目流程图，不是产品截图。
-- `projects/`：公开可读的项目介绍，源码可以继续保留在私有仓库。
+三列对应 Projects、Case studies、Notes。不伪造博客、发布版本、Star 数或技术经历。
 
-## 后续增加项目
+## 文件组织
 
-1. 提供项目文件夹或仓库链接，以及你希望公开的范围。
-2. 先确认实际功能、本人职责、第三方代码来源和当前验证状态。
-3. 在 `projects/` 新增项目介绍，写清问题、关键设计、技术与状态。有真实截图或录屏时再补充素材。
-4. 在中英文主页各增加一段摘要及介绍链接；优先展示最相关的 2–4 个项目。
-5. 如果需要公开源码，再单独整理对应仓库的依赖、配置示例和运行方法。不要直接批量上传整个本地目录。
+- README.md 与 README.en.md：由脚本生成的中英文首页。
+- projects.json：公开项目名称、短描述与私有仓库名称。
+- scripts/build_readme.py：从公开元数据生成首页，不访问私有源码 API。
+- PROJECTS.md：完整项目索引。
+- projects/：公开介绍；notes/：技术笔记。
+- assets/：保留首版 SVG，首页当前不使用大横幅。
 
-## 更新内容
+运行 `python scripts/build_readme.py` 可以重建主页。这是本地生成脚本，不是定时发布服务。
 
-- 教育信息当前依据简历：北交大本科 2022–2026；澳国立计算机科学硕士已获录取，计划 2027.07 入学。英文版用泛称，不推断录取通知书上的正式学位名称。
-- 实习状态、可实习时间和项目阶段变化时，同步更新中英文页面。
-- 公开联系方式只使用个人邮箱，不上传整份简历、手机号、API 凭据、聊天资料或企业项目源码。
-- 私有仓库链接对未获授权的访客会显示 404；访客应优先打开本仓库内的项目介绍。
-- 不添加未经验证的用户规模、性能指标、上线状态、开源身份或第三方动态统计图。
+## 增加项目
 
-## 设计参考
+1. 提供项目文件夹或仓库、本人职责及公开范围。
+2. 核对实际功能、第三方归属和当前验证状态，先整理私有源码。
+3. 在 projects/ 增加简介，更新 projects.json 和 PROJECTS.md。
+4. 调整脚本中的精选项目列表，再生成中英文首页。
 
-参考组织方式，正文与图形均为本次原创：
+新增源码和交付物默认进入私有仓库。整份简历、凭据、私钥、真实业务导出和企业配置不进入公开主页。
 
-- [Simon Willison](https://github.com/simonw)：用具体项目与工作内容建立技术定位。
-- [Anurag Hazra](https://github.com/anuraghazra)：简明介绍与代表项目形成一致表达。
-- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme)：查看不同个人主页的视觉组织方式。
-- [GitHub：管理个人资料 README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)。
-- [GitHub：利用个人资料辅助求职](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume)。
+## 本轮归档对应关系
 
-本版选择深蓝 / 青绿、静态 SVG、项目叙述和明确的访问入口。素材由仓库自身托管，减少外部图片服务失效的影响。
+- 金龙鱼 GEA → jinlongyu-gea，保留工作台与用户中心。
+- 金龙鱼 → jinlongyu-order-agent，保留两个订单应用版本。
+- 礼来 → lilly-content-engine。
+- Disney 与技术附件 → disney-dam。
+- volvo → volvo-research-agent。
+- fusion-matrix、fusion_matrix 与融矩阵文档 → fusion-matrix，数据导出仅保留表结构。
+- he_contract-master → blockchain-contract。
+- 视觉跟踪目录 → visual-target-tracking。
+- 架构图与通用笔记 → project-reference-notes。
+- F1 打包程序 → f1-racing-demo 私有 Release；仓库保存恢复脚本与校验清单。
+- EchoAgent → 既有 virtual-human 私有仓库；已核对本地提交与远端一致。
+
+各新建源码仓库有 ARCHIVE_REPORT.json 和 FILE_MANIFEST.json，记录上传文件与排除项。上传的是清理后的快照，没有原 Git 历史。凭据检查通过只指扫描范围，不等于业务或安全验收；本次没有重跑全部原项目测试。
+
+## 资料准确性
+
+教育背景依据简历，澳国立写“已获录取”。礼来、电子合同和 F1 的具体本人职责尚未进一步核实，先仅介绍归档内容。
+
+侧栏姓名与简介需要账号资料修改权限；此前连接修改个人资料返回 404，没有改动侧栏资料。
