@@ -27,7 +27,7 @@ def build(english=False):
     cols.append('### '+headings[1]+'\n\n'+'\n\n'.join(rows)+f'\n\n[{more[1]}](PROJECTS.md)')
     rows=[f'[{en if english else zh}](notes/{slug}.md)' for zh,en,slug in NOTES]
     cols.append('### '+headings[2]+'\n\n'+'\n\n'.join(rows)+f'\n\n[{more[2]}](notes/README.md)')
-    table='<table><tr><td valign="top" width="33%">\n\n'+cols[0]+'\n\n</td><td valign="top" width="34%">\n\n'+cols[1]+'\n\n</td><td valign="top" width="33%">\n\n'+cols[2]+'\n\n</td></tr></table>'
+    table='<table width="100%"><tr><td valign="top" width="33%">\n\n'+cols[0]+'\n\n</td><td valign="top" width="34%">\n\n'+cols[1]+'\n\n</td><td valign="top" width="33%">\n\n'+cols[2]+'\n\n</td></tr></table>'
     if english:
         footer='Beijing Jiaotong University · CS undergraduate, 2022–2026. Admitted to a computer science master\'s program at ANU; entry July 2027. Open to internships through July 2027.\n\nPublic pages contain project overviews; source archives and packaged builds are private. [About this profile](MAINTAINING.md).'
     else:

@@ -1,6 +1,6 @@
 I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tezign**. Currently building [EchoAgent](projects/echoagent.md) and working across agent workflows, RAG, and enterprise integrations. Browse [my projects](PROJECTS.md), read [engineering notes](notes/README.md), or [get in touch](mailto:qjyvictory@163.com). [中文](README.md).
 
-<table><tr><td valign="top" width="33%">
+<table width="100%"><tr><td valign="top" width="33%">
 
 ### Projects
 

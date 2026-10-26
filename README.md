@@ -1,6 +1,6 @@
 我是 **秦嘉言 Jiayan Qin**，全栈 Agent 开发者，目前在 **特赞 Tezign** 实习。正在做 [EchoAgent](projects/echoagent.md)，关注 Agent 工作流、RAG 和企业系统集成。可以看看[我的项目](PROJECTS.md)、读读[技术笔记](notes/README.md)，或[通过邮箱联系我](mailto:qjyvictory@163.com)。[English](README.en.md)。
 
-<table><tr><td valign="top" width="33%">
+<table width="100%"><tr><td valign="top" width="33%">
 
 ### Projects · 项目
 
