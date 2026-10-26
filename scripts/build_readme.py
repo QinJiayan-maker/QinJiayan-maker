@@ -5,8 +5,8 @@ import json
 ROOT=Path(__file__).resolve().parents[1]
 projects=json.loads((ROOT/'projects.json').read_text(encoding='utf-8'))
 FEATURED=['echoagent','volvo','order-agent','gea','disney','lilly','fusion-matrix','visual-tracking']
-CASES=[('七阶段研究流程','Research orchestration','volvo'),('语音 / 文字 / 拍照改单','Multimodal order editing','order-agent'),('SSO 与组织同步','SSO and organization sync','gea'),('多模态资产检索','Multimodal asset search','disney'),('人物记忆与来源治理','Memory and provenance','echoagent'),('数字藏品后端','Collectibles backend','fusion-matrix')]
-NOTES=[('Agent 在哪里等待确认','Where agents pause for approval','agent-approval'),('区分事实与表达风格','Separating facts from style','memory-and-style'),('检索结果如何带上依据','Retrieval with provenance','retrieval-evidence'),('为什么登录和组织同步分开','Login versus organization sync','identity-and-sync'),('改单工具如何处理单位','Units in order-editing tools','order-units'),('私有源码的公开展示','Presenting private projects','private-projects')]
+CASES=[('从洞察搜索到报告归档的七阶段研究流程','A seven-stage workflow from research to reporting','volvo'),('用语音、文字和照片调整同一份订单','Editing one order through voice, text, and photos','order-agent'),('企业 SSO 登录与组织同步的身份边界','Identity boundaries between SSO and organization sync','gea'),('数字资产管理中的鉴权与多模态检索','Authentication and multimodal asset retrieval','disney'),('人物记忆、表达风格与来源隔离','Persona memory, expression style, and provenance','echoagent'),('数字藏品平台的分页筛选与用户接口','Filtering and user APIs for a collectibles platform','fusion-matrix')]
+NOTES=[('Agent 在哪里等待确认：阶段推进与工具执行','Where agents pause: stage transitions and tool actions','agent-approval'),('人物 Agent 的事实记忆与表达风格为什么分开','Why factual memory and expression style stay separate','memory-and-style'),('RAG 检索结果如何带上原始依据与来源','How retrieved context carries its original evidence','retrieval-evidence'),('企业接入中，为什么登录和组织同步分开','Why enterprise login and organization sync are separate','identity-and-sync'),('订单工具为什么要校验商品和包装单位','Why order tools validate products and packaging units','order-units'),('如何在公开主页展示私有源码项目','Presenting private-source projects on a public profile','private-projects')]
 
 def build(english=False):
     if english:

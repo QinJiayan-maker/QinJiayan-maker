@@ -26,17 +26,17 @@
 
 ### Case studies · 实践
 
-[七阶段研究流程](projects/volvo.md)
+[从洞察搜索到报告归档的七阶段研究流程](projects/volvo.md)
 
-[语音 / 文字 / 拍照改单](projects/order-agent.md)
+[用语音、文字和照片调整同一份订单](projects/order-agent.md)
 
-[SSO 与组织同步](projects/gea.md)
+[企业 SSO 登录与组织同步的身份边界](projects/gea.md)
 
-[多模态资产检索](projects/disney.md)
+[数字资产管理中的鉴权与多模态检索](projects/disney.md)
 
-[人物记忆与来源治理](projects/echoagent.md)
+[人物记忆、表达风格与来源隔离](projects/echoagent.md)
 
-[数字藏品后端](projects/fusion-matrix.md)
+[数字藏品平台的分页筛选与用户接口](projects/fusion-matrix.md)
 
 [更多项目实践](PROJECTS.md)
 
@@ -44,17 +44,17 @@
 
 ### Notes · 技术笔记
 
-[Agent 在哪里等待确认](notes/agent-approval.md)
+[Agent 在哪里等待确认：阶段推进与工具执行](notes/agent-approval.md)
 
-[区分事实与表达风格](notes/memory-and-style.md)
+[人物 Agent 的事实记忆与表达风格为什么分开](notes/memory-and-style.md)
 
-[检索结果如何带上依据](notes/retrieval-evidence.md)
+[RAG 检索结果如何带上原始依据与来源](notes/retrieval-evidence.md)
 
-[为什么登录和组织同步分开](notes/identity-and-sync.md)
+[企业接入中，为什么登录和组织同步分开](notes/identity-and-sync.md)
 
-[改单工具如何处理单位](notes/order-units.md)
+[订单工具为什么要校验商品和包装单位](notes/order-units.md)
 
-[私有源码的公开展示](notes/private-projects.md)
+[如何在公开主页展示私有源码项目](notes/private-projects.md)
 
 [全部技术笔记](notes/README.md)
 

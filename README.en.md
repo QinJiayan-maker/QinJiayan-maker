@@ -26,17 +26,17 @@ I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tez
 
 ### Case studies
 
-[Research orchestration](projects/volvo.md)
+[A seven-stage workflow from research to reporting](projects/volvo.md)
 
-[Multimodal order editing](projects/order-agent.md)
+[Editing one order through voice, text, and photos](projects/order-agent.md)
 
-[SSO and organization sync](projects/gea.md)
+[Identity boundaries between SSO and organization sync](projects/gea.md)
 
-[Multimodal asset search](projects/disney.md)
+[Authentication and multimodal asset retrieval](projects/disney.md)
 
-[Memory and provenance](projects/echoagent.md)
+[Persona memory, expression style, and provenance](projects/echoagent.md)
 
-[Collectibles backend](projects/fusion-matrix.md)
+[Filtering and user APIs for a collectibles platform](projects/fusion-matrix.md)
 
 [More case studies](PROJECTS.md)
 
@@ -44,17 +44,17 @@ I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tez
 
 ### Engineering notes
 
-[Where agents pause for approval](notes/agent-approval.md)
+[Where agents pause: stage transitions and tool actions](notes/agent-approval.md)
 
-[Separating facts from style](notes/memory-and-style.md)
+[Why factual memory and expression style stay separate](notes/memory-and-style.md)
 
-[Retrieval with provenance](notes/retrieval-evidence.md)
+[How retrieved context carries its original evidence](notes/retrieval-evidence.md)
 
-[Login versus organization sync](notes/identity-and-sync.md)
+[Why enterprise login and organization sync are separate](notes/identity-and-sync.md)
 
-[Units in order-editing tools](notes/order-units.md)
+[Why order tools validate products and packaging units](notes/order-units.md)
 
-[Presenting private projects](notes/private-projects.md)
+[Presenting private-source projects on a public profile](notes/private-projects.md)
 
 [All notes](notes/README.md)
 
