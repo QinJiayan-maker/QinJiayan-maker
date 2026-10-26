@@ -62,4 +62,4 @@ I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tez
 
 Beijing Jiaotong University · CS undergraduate, 2022–2026. Admitted to a computer science master's program at ANU; entry July 2027. Open to internships through July 2027.
 
-Public pages contain project overviews; source archives and packaged builds are private. [About this profile](MAINTAINING.md).
+Public pages contain project overviews; source archives are private. See the project index for the incomplete F1 build-upload status. [About this profile](MAINTAINING.md).

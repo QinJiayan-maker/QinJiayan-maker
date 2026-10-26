@@ -37,7 +37,7 @@
 - he_contract-master → blockchain-contract。
 - 视觉跟踪目录 → visual-target-tracking。
 - 架构图与通用笔记 → project-reference-notes。
-- F1 打包程序 → f1-racing-demo 私有 Release；仓库保存恢复脚本与校验清单。
+- F1 打包程序 → f1-racing-demo 私有草稿 Release；上传未完成，仅 6 个原始分卷通过远端校验。仓库保存恢复脚本、校验清单和 UPLOAD_STATUS.json，当前云端分卷不能恢复完整程序。
 - EchoAgent → 既有 virtual-human 私有仓库；已核对本地提交与远端一致。
 
 各新建源码仓库有 ARCHIVE_REPORT.json 和 FILE_MANIFEST.json，记录上传文件与排除项。上传的是清理后的快照，没有原 Git 历史。凭据检查通过只指扫描范围，不等于业务或安全验收；本次没有重跑全部原项目测试。

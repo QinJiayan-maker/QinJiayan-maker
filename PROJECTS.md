@@ -18,7 +18,7 @@
 - [融矩阵数字藏品平台](projects/fusion-matrix.md) — Java 后端、数据库表结构及项目文档合并归档。
 - [视觉目标跟踪](projects/visual-tracking.md) — YOLO、NanoTrack、卡尔曼滤波与 STM32 云台控制。
 - [区块链电子合同](projects/blockchain-contract.md) — 基于已有框架的电子合同项目归档，保留第三方归属。
-- [F1 / Unreal Engine Windows 程序](projects/f1.md) — Windows 打包交付物，分卷保存于私有 Releases；未提供工程源码。
+- [F1 / Unreal Engine Windows 程序](projects/f1.md) — Windows 打包交付物，尚未提供工程源码；完整程序包上传未完成，已成功的 6 卷保留为私有草稿。
 
 ## 参考资料
 

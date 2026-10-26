@@ -29,9 +29,9 @@ def build(english=False):
     cols.append('### '+headings[2]+'\n\n'+'\n\n'.join(rows)+f'\n\n[{more[2]}](notes/README.md)')
     table='<table width="100%"><tr><td valign="top" width="33%">\n\n'+cols[0]+'\n\n</td><td valign="top" width="34%">\n\n'+cols[1]+'\n\n</td><td valign="top" width="33%">\n\n'+cols[2]+'\n\n</td></tr></table>'
     if english:
-        footer='Beijing Jiaotong University · CS undergraduate, 2022–2026. Admitted to a computer science master\'s program at ANU; entry July 2027. Open to internships through July 2027.\n\nPublic pages contain project overviews; source archives and packaged builds are private. [About this profile](MAINTAINING.md).'
+        footer='Beijing Jiaotong University · CS undergraduate, 2022–2026. Admitted to a computer science master\'s program at ANU; entry July 2027. Open to internships through July 2027.\n\nPublic pages contain project overviews; source archives are private. See the project index for the incomplete F1 build-upload status. [About this profile](MAINTAINING.md).'
     else:
-        footer='北京交通大学 · 计算机科学与技术本科（2022–2026）。澳大利亚国立大学 · 计算机科学硕士已获录取，2027 年 7 月入学。可长期实习至 2027 年 7 月。\n\n公开页面展示项目介绍，源码与发行包保存在私有仓库。[主页维护说明](MAINTAINING.md)。'
+        footer='北京交通大学 · 计算机科学与技术本科（2022–2026）。澳大利亚国立大学 · 计算机科学硕士已获录取，2027 年 7 月入学。可长期实习至 2027 年 7 月。\n\n公开页面展示项目介绍，源码归档保持私有；F1 程序包的未完成上传状态见项目索引。[主页维护说明](MAINTAINING.md)。'
     return intro+'\n\n'+table+'\n\n'+footer+'\n'
 
 if __name__=='__main__':
