@@ -32,7 +32,7 @@
 - 金龙鱼 → jinlongyu-order-agent，保留两个订单应用版本。
 - 礼来 → lilly-content-engine。
 - Disney 与技术附件 → disney-dam。
-- volvo → volvo-research-agent。
+- volvo → project-reference-notes 私有仓库的 projects/volvo-research-agent 独立目录；GitHub 临时限制新建仓库，故复用已有私有归档。
 - fusion-matrix、fusion_matrix 与融矩阵文档 → fusion-matrix，数据导出仅保留表结构。
 - he_contract-master → blockchain-contract。
 - 视觉跟踪目录 → visual-target-tracking。

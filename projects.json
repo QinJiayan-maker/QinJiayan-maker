@@ -1,6 +1,6 @@
 [
   {"id":"echoagent","name":"EchoAgent","name_en":"EchoAgent","short":"人物记忆与可控执行","short_en":"memory and controlled actions","repo":"virtual-human"},
-  {"id":"volvo","name":"Volvo 研究 Agent","name_en":"Research Agent","short":"多阶段研究交付","short_en":"multi-stage research","repo":"volvo-research-agent"},
+  {"id":"volvo","name":"Volvo 研究 Agent","name_en":"Research Agent","short":"多阶段研究交付","short_en":"multi-stage research","repo":"project-reference-notes","repo_path":"projects/volvo-research-agent"},
   {"id":"order-agent","name":"金龙鱼智能订单","name_en":"Order Agent","short":"多模态改单工具","short_en":"multimodal order editing","repo":"jinlongyu-order-agent"},
   {"id":"gea","name":"金龙鱼 GEA","name_en":"GEA & Identity","short":"工作台与身份集成","short_en":"workspace and identity","repo":"jinlongyu-gea"},
   {"id":"disney","name":"Disney DAM","name_en":"Disney DAM","short":"企业数字资产管理","short_en":"enterprise asset management","repo":"disney-dam"},

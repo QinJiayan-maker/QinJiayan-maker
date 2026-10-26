@@ -1,6 +1,6 @@
 # Volvo / 多阶段研究 Agent
 
-[← 项目索引](../PROJECTS.md) · [源码与原始文档（私有）](https://github.com/QinJiayan-maker/volvo-research-agent)
+[← 项目索引](../PROJECTS.md) · [源码与原始文档（私有）](https://github.com/QinJiayan-maker/project-reference-notes/tree/main/projects/volvo-research-agent)
 
 ## 场景
 
@@ -18,4 +18,4 @@
 
 TypeScript · Next.js · Agent 工具编排 · Prisma · PostgreSQL / pgvector。
 
-当前私有仓库保存本地项目的脱敏快照。公开介绍仅概述职责与设计，不公开企业数据、客户配置或交付文件；本次归档未重新执行原项目验收。
+脱敏快照位于私有资料仓库的独立项目目录，并有单独的文件清单与处理报告。公开介绍仅概述职责与设计，不公开企业数据、客户配置或交付文件；本次归档未重新执行原项目验收。

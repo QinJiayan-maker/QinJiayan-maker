@@ -22,7 +22,7 @@
 
 ## 参考资料
 
-项目架构图与通用参考笔记单独保存在 [project-reference-notes（私有）](https://github.com/QinJiayan-maker/project-reference-notes)。Disney 技术附件已归入对应私有仓库。面试准备、个人简历、销售合同和重复压缩包不列为项目。
+项目架构图与通用参考笔记保存在 [project-reference-notes（私有）](https://github.com/QinJiayan-maker/project-reference-notes)，Volvo 源码位于该仓库独立的 `projects/volvo-research-agent` 目录。Disney 技术附件已归入对应私有仓库。面试准备、个人简历、销售合同和重复压缩包不列为项目。
 
 ## 归档说明
 
