@@ -14,7 +14,7 @@ I'm **Jiayan Qin (秦嘉言)**, a full-stack Agent developer and intern at **Tez
 
 [Disney DAM](projects/disney.md) — enterprise asset management
 
-[Lilly Content Engine](projects/lilly.md) — content workspace archive
+[Lilly Content Engine](projects/lilly.md) — AI content creation and asset workspace
 
 [Fusion Matrix](projects/fusion-matrix.md) — Java backend and docs
 

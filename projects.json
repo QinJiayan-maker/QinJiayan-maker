@@ -4,9 +4,9 @@
   {"id":"order-agent","name":"金龙鱼智能订单","name_en":"Order Agent","short":"多模态改单工具","short_en":"multimodal order editing","repo":"jinlongyu-order-agent"},
   {"id":"gea","name":"金龙鱼 GEA","name_en":"GEA & Identity","short":"工作台与身份集成","short_en":"workspace and identity","repo":"jinlongyu-gea"},
   {"id":"disney","name":"Disney DAM","name_en":"Disney DAM","short":"企业数字资产管理","short_en":"enterprise asset management","repo":"disney-dam"},
-  {"id":"lilly","name":"礼来内容引擎","name_en":"Lilly Content Engine","short":"内容工作台归档","short_en":"content workspace archive","repo":"lilly-content-engine"},
+  {"id":"lilly","name":"礼来内容引擎","name_en":"Lilly Content Engine","short":"AI 内容创作与素材工作台","short_en":"AI content creation and asset workspace","repo":"lilly-content-engine"},
   {"id":"fusion-matrix","name":"融矩阵数字藏品","name_en":"Fusion Matrix","short":"Java 后端与项目文档","short_en":"Java backend and docs","repo":"fusion-matrix"},
   {"id":"visual-tracking","name":"视觉目标跟踪","name_en":"Visual Tracking","short":"检测、跟踪与云台控制","short_en":"perception to pan-tilt control","repo":"visual-target-tracking"},
-  {"id":"blockchain-contract","name":"区块链电子合同","name_en":"Blockchain Contracts","short":"合同系统代码归档","short_en":"contract-system archive","repo":"blockchain-contract"},
-  {"id":"f1","name":"F1 / UE Windows 程序","name_en":"F1 / UE Windows Build","short":"打包交付物归档","short_en":"packaged-build archive","repo":"f1-racing-demo"}
+  {"id":"blockchain-contract","name":"区块链电子合同","name_en":"Blockchain Contracts","short":"合同管理与链上集成","short_en":"contract management and blockchain integration","repo":"blockchain-contract"},
+  {"id":"f1","name":"F1 / UE Windows 程序","name_en":"F1 / UE Windows Build","short":"Unreal Engine 开发与打包交付","short_en":"Unreal Engine development and Windows delivery","repo":"f1-racing-demo"}
 ]

@@ -14,7 +14,7 @@
 
 [Disney DAM](projects/disney.md) — 企业数字资产管理
 
-[礼来内容引擎](projects/lilly.md) — 内容工作台归档
+[礼来内容引擎](projects/lilly.md) — AI 内容创作与素材工作台
 
 [融矩阵数字藏品](projects/fusion-matrix.md) — Java 后端与项目文档
 

@@ -11,14 +11,14 @@
 - [金龙鱼：智能订单 Agent](projects/order-agent.md) — 文字、语音与拍照改单，订单草稿和原生交互。
 - [金龙鱼 GEA：工作台与企业身份集成](projects/gea.md) — 应用工作台、SSO / IAM 与组织同步。
 - [Disney DAM：企业数字资产管理](projects/disney.md) — 鉴权、资产检索、媒体处理和私有化适配。
-- [礼来：AI 内容引擎](projects/lilly.md) — 内容创作、素材与模板工作台代码归档；不扩写未经核实的个人职责。
+- [礼来：AI 内容引擎](projects/lilly.md) — 负责完整项目实现，覆盖内容创作、素材库、模板库与内容日历等模块。
 
 ## 后端、视觉与交互项目
 
 - [融矩阵数字藏品平台](projects/fusion-matrix.md) — Java 后端、数据库表结构及项目文档合并归档。
 - [视觉目标跟踪](projects/visual-tracking.md) — YOLO、NanoTrack、卡尔曼滤波与 STM32 云台控制。
-- [区块链电子合同](projects/blockchain-contract.md) — 基于已有框架的电子合同项目归档，保留第三方归属。
-- [F1 / Unreal Engine Windows 程序](projects/f1.md) — Windows 打包交付物，尚未提供工程源码；完整程序包上传未完成，已成功的 6 卷保留为私有草稿。
+- [区块链电子合同](projects/blockchain-contract.md) — 基于 RuoYi-Vue-Plus 完成系统开发，包含合同管理、PDF 盖章与区块链 / IPFS 集成。
+- [F1 / Unreal Engine Windows 程序](projects/f1.md) — 负责完整项目开发与 Windows 打包交付；当前工程源码未归档，程序包上传未完成，已成功的 6 卷保留为私有草稿。
 
 ## 参考资料
 
