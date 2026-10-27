@@ -32,13 +32,16 @@
 - 金龙鱼 → jinlongyu-order-agent，保留两个订单应用版本。
 - 礼来 → lilly-content-engine。
 - Disney 与技术附件 → disney-dam。
-- volvo → project-reference-notes 私有仓库的 projects/volvo-research-agent 独立目录；GitHub 临时限制新建仓库，故复用已有私有归档。
+- volvo → volvo-research-agent 独立私有仓库；2026-10-27 已补建。project-reference-notes 中保留此前快照。
 - fusion-matrix、fusion_matrix 与融矩阵文档 → fusion-matrix，数据导出仅保留表结构。
 - he_contract-master → blockchain-contract。
 - 视觉跟踪目录 → visual-target-tracking。
 - 架构图与通用笔记 → project-reference-notes。
 - F1 打包程序 → f1-racing-demo 私有草稿 Release；上传未完成，仅 6 个原始分卷通过远端校验。仓库保存恢复脚本、校验清单和 UPLOAD_STATUS.json，当前云端分卷不能恢复完整程序。
 - EchoAgent → 既有 virtual-human 私有仓库；已核对本地提交与远端一致。
+- WeChatMsg → wechatmsg-reference 独立私有参考仓库，保留原作者与 MIT 许可，不计为本人原创项目。
+
+2026-10-27 的源码覆盖复核还补传了 3 个此前漏掉的文件：Disney 的上传组件与 OSS 测试、GEA 的 SAML 测试。测试中的凭据资料已替换为占位符，运行对应集成测试前需要自行配置测试资料。
 
 各新建源码仓库有 ARCHIVE_REPORT.json 和 FILE_MANIFEST.json，记录上传文件与排除项。上传的是清理后的快照，没有原 Git 历史。凭据检查通过只指扫描范围，不等于业务或安全验收；本次没有重跑全部原项目测试。
 

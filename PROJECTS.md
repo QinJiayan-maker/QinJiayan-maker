@@ -2,6 +2,8 @@
 
 [← 返回主页](README.md) · [技术笔记](notes/README.md)
 
+需要直接查看源码，请打开[代码仓库清单](CODE_REPOSITORIES.md)。
+
 这里是个人项目、实习实践与代码归档的公开索引。介绍页均可直接阅读；源码仓库和 F1 发行包设为私有，未获授权时 GitHub 会返回 404。
 
 ## Agent 与企业应用
@@ -22,7 +24,7 @@
 
 ## 参考资料
 
-项目架构图与通用参考笔记保存在 [project-reference-notes（私有）](https://github.com/QinJiayan-maker/project-reference-notes)，Volvo 源码位于该仓库独立的 `projects/volvo-research-agent` 目录。Disney 技术附件已归入对应私有仓库。面试准备、个人简历、销售合同和重复压缩包不列为项目。
+项目架构图与通用参考笔记保存在 [project-reference-notes（私有）](https://github.com/QinJiayan-maker/project-reference-notes)，其中保留此前的 Volvo 快照；Volvo 当前已有独立的 [volvo-research-agent](https://github.com/QinJiayan-maker/volvo-research-agent) 私有源码仓库。WeChatMsg 作为第三方参考工具单独保存在 [wechatmsg-reference（私有）](https://github.com/QinJiayan-maker/wechatmsg-reference)，保留原作者与 MIT 许可，不列为本人原创项目。Disney 技术附件已归入对应私有仓库。面试准备、个人简历、销售合同和重复压缩包不列为项目。
 
 ## 归档说明
 
